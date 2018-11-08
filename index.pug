@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		title Gallery Filters
+		link(rel="stylesheet", href="css/main.css")
+	body
+		
+		.container
+
+			.row
+				.col-md-12.d-flex.flex-wrap.justify-content-between.galleryFilters
+					ul.list-inline.filtersList
+						li.filterListItem.btn.violetBtn(data-filter="all") All
+						li.filterListItem.btn.violetBtn(data-filter="animals") Animals
+						li.filterListItem.btn.violetBtn(data-filter="places") Places
+						li.filterListItem.btn.violetBtn(data-filter="nature") Nature
+					input.searchBar.form-control(type="text" name="search" data-search placeholder="Search")
+
+			.row.filtr-container.galleryContainer
+				
+				//-Item
+				.col-md-3.filtr-item.thumbnail(data-category="all,nature" data-sort="bridge")
+					img(src="img/nature/nature1.jpeg", alt="Nature")
+					span.item-desc bridge
+
+				//-Item
+				.col-md-3.filtr-item.thumbnail(data-category="all,animals" data-sort="zebra")
+					img(src="img/animals/animals1.jpg", alt="Animal")
+					span.item-desc zebra
+
+				//-Item
+				.col-md-3.filtr-item.thumbnail(data-category="all,places" data-sort="beach")
+					img(src="img/places/places1.jpg", alt="Places")
+					span.item-desc beach
+				
+				//-Item
+				.col-md-3.filtr-item.thumbnail(data-category="all,nature" data-sort="tree")
+					img(src="img/nature/nature2.jpeg", alt="Nature")
+					span.item-desc tree
+
+				//-Item
+				.col-md-3.filtr-item.thumbnail(data-category="all,places" data-sort="nature reserve")
+					img(src="img/places/places10.jpg", alt="Places")
+					span.item-desc nature reserve
+				
+				//-Item
+				.col-md-3.filtr-item.thumbnail(data-category="all,nature" data-sort="nature")
+					img(src="img/nature/nature6.jpeg", alt="Nature")
+					span.item-desc nature
+
+				//-Item
+				.col-md-3.filtr-item.thumbnail(data-category="all,places" data-sort="nature reserve")
+					img(src="img/places/places11.jpg", alt="Places")
+					span.item-desc nature reserve
+
+				//-Item
+				.col-md-3.filtr-item.thumbnail(data-category="all,places" data-sort="building")
+					img(src="img/places/places12.jpg", alt="Places")
+					span.item-desc building
+				
+				//-Item
+				.col-md-3.filtr-item.thumbnail(data-category="all,nature" data-sort="tree")
+					img(src="img/nature/nature7.jpeg", alt="Nature")
+					span.item-desc tree
+
+				//-Item
+				.col-md-3.filtr-item.thumbnail(data-category="all,animals" data-sort="giraffe")
+					img(src="img/animals/animals2.jpg", alt="Animal")
+					span.item-desc giraffe
+
+				//-Item
+				.col-md-3.filtr-item.thumbnail(data-category="all,nature" data-sort="forest")
+					img(src="img/nature/nature3.jpg", alt="Nature")
+					span.item-desc forest
+
+				//-Item
+				.col-md-3.filtr-item.thumbnail(data-category="all,nature" data-sort="forest")
+					img(src="img/nature/nature4.jpg", alt="Nature")
+					span.item-desc forest
+
+				//-Item
+				.col-md-3.filtr-item.thumbnail(data-category="all,animals" data-sort="animal")
+					img(src="img/animals/animals3.jpg", alt="Animal")
+					span.item-desc animal
+
+				//-Item
+				.col-md-3.filtr-item.thumbnail(data-category="all,places" data-sort="singapore")
+					img(src="img/places/places9.jpg", alt="Places")
+					span.item-desc singapore
+				
+				//-Item
+				.col-md-3.filtr-item.thumbnail(data-category="all,nature" data-sort="bridge")
+					img(src="img/nature/nature5.jpg", alt="Nature")
+					span.item-desc bridge
+
+				//-Item
+				.col-md-3.filtr-item.thumbnail(data-category="all,places" data-sort="building")
+					img(src="img/places/places2.jpg", alt="Places")
+					span.item-desc building
+				
+				//-Item
+				.col-md-3.filtr-item.thumbnail(data-category="all,nature" data-sort="tree")
+					img(src="img/nature/nature8.jpg", alt="Nature")
+					span.item-desc tree
+
+				//-Item
+				.col-md-3.filtr-item.thumbnail(data-category="all,nature" data-sort="beach")
+					img(src="img/nature/nature9.jpg", alt="Nature")
+					span.item-desc beach
+
+				//-Item
+				.col-md-3.filtr-item.thumbnail(data-category="all,animals" data-sort="bird")
+					img(src="img/animals/animals4.jpg", alt="Animal")
+					span.item-desc peacock
+				
+				//-Item
+				.col-md-3.filtr-item.thumbnail(data-category="all,places" data-sort="mountains")
+					img(src="img/places/places7.jpg", alt="Places")
+					span.item-desc mountains
+
+				//-Item
+				.col-md-3.filtr-item.thumbnail(data-category="all,places" data-sort="beach")
+					img(src="img/places/places8.jpg", alt="Places")
+					span.item-desc beach
+
+				//-Item
+				.col-md-3.filtr-item.thumbnail(data-category="all,animals" data-sort="animal")
+					img(src="img/animals/animals5.jpg", alt="Animal")
+					span.item-desc squirrel
+				
+				//-Item
+				.col-md-3.filtr-item.thumbnail(data-category="all,places" data-sort="building")
+					img(src="img/places/places2.jpg", alt="Places")
+					span.item-desc building
+			
+				//-Item
+				.col-md-3.filtr-item.thumbnail(data-category="all,nature" data-sort="forest")
+					img(src="img/nature/nature3.jpg", alt="Nature")
+					span.item-desc forest
+
+				//-Item
+				.col-md-3.filtr-item.thumbnail(data-category="all,animals" data-sort="animal")
+					img(src="img/animals/animals6.jpg", alt="Animal")
+					span.item-desc flamingo
+				
+				//-Item
+				.col-md-3.filtr-item.thumbnail(data-category="all,places" data-sort="singapore")
+					img(src="img/places/places3.jpg", alt="Places")
+					span.item-desc singapore
+
+				//-Item
+				.col-md-3.filtr-item.thumbnail(data-category="all,animals" data-sort="bird")
+					img(src="img/animals/animals7.jpg", alt="Animal")
+					span.item-desc parrot
+
+				//-Item
+				.col-md-3.filtr-item.thumbnail(data-category="all,places" data-sort="mountains")
+					img(src="img/places/places6.jpg", alt="Places")
+					span.item-desc mountains
+
+				//-Item
+				.col-md-3.filtr-item.thumbnail(data-category="all,places" data-sort="building")
+					img(src="img/places/places5.jpg", alt="Places")
+					span.item-desc building
+
+		script(src="js/jquery-3.3.1.min.js")
+		script(src="js/bootstrap.bundle.min.js")
+		script(src="js/jquery.filterizr.min.js")
+		script(src="js/main.js")

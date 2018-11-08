@@ -1,0 +1,56 @@
+@import bootstrap-reboot.min
+@import bootstrap.min
+@import ../fonts/questrial
+
+$blue: #454ade
+$violet: #610f7f
+
+body
+	font-family: Questrial, Arial, sans-serif
+	background-color: #fff
+
+.galleryFilters
+	margin: 20px auto
+	align-content: center
+	.filtersList
+		display: flex
+		justify-content: space-between
+		margin: 0
+		.filterListItem
+			margin-right: 10px
+			&.active
+				background-color: lighten($violet, 15%)
+	.violetBtn
+		background: $violet
+		color: #fff
+	.searchBar
+		flex-grow: 1
+		width: auto
+		border-color: $violet
+		&:focus
+			box-shadow: 0 0 5px $violet
+
+.galleryContainer
+	.thumbnail
+		padding-bottom: 20px
+		position: relative
+		border-radius: 5px
+		img
+			max-width: 100%
+			border-radius: 5px
+			box-sizing: border-box
+			box-shadow: 0 0 10px rgba(#000, .8)
+		.item-desc
+			position: absolute
+			top: 10px
+			right: 25px
+			display: inline-block
+			text-transform: uppercase
+			color: #fff
+			background-color: $violet
+			padding: 5px 10px
+			border-radius: 5px
+
+
+
+
